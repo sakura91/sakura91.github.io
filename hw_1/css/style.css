@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+}
+.header > div, h1 {
+    display: inline-block;
+}
+h2 {
+    color: grey;
+}
+.wrapper {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+img {
+    height: 100px;
+    width: 100px;
+}

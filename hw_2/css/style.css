@@ -1,0 +1,25 @@
+body {
+    background-image: url(http://luxfon.com/images/201311/luxfon.com_22382.jpg);
+}
+.form {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-left: calc(50% - 250px);
+    width: 500px;
+    height: 350px;
+    padding-top: 100px;
+}
+.title {
+    text-shadow: 1px 1px 2px #fff;
+}
+.password {
+    padding: 6px 29px 6px 5px;
+}
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    text-decoration: none;
+}

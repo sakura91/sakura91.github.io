@@ -1,0 +1,53 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: left;
+}
+h1 i{
+    padding-right: 10px;
+}
+.menu{
+    float: left;
+    width: 175px;
+}
+.menu ul{
+    padding: 0;
+}
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid #000;
+    width: 165px;
+    padding: 6px 0px 6px 4px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li:hover {
+    color: red;
+}
+.content {
+    width: 1000px;
+    float: right;
+    margin-bottom: 50px;
+}
+.find {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.search {
+    margin-top: 30px;
+}
+.copy {
+    text-align: center;
+    clear: both;
+}
+.copy li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}

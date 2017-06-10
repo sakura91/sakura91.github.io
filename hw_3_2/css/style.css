@@ -1,0 +1,128 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1 i{
+    padding-right: 10px;
+}
+.menu{
+    float: left;
+    width: 1200px;
+}
+.menu tr {
+    padding: 0;
+}
+.menu td {
+    list-style: none;
+    border: 1px solid #000;
+    width: 220px;
+    padding: 6px 0px 6px 4px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu td:hover {
+    color: red;
+}
+.content {
+    width: 1200px;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 100%;
+}
+.find {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.search {
+    margin-top: 10px;
+    width: 25%;
+    height: 30px;
+}
+.copy {
+    text-align: center;
+    clear: both;
+}
+
+.copy li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+
+
+
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1 i{
+    padding-right: 10px;
+}
+.menu{
+    float: left;
+    width: 1200px;
+}
+.menu tr {
+    padding: 0;
+}
+.menu td {
+    list-style: none;
+    border: 1px solid #000;
+    width: 220px;
+    padding: 6px 0px 6px 4px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu td:hover {
+    color: red;
+}
+.content {
+    width: 1200px;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 100%;
+}
+.find {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.search {
+    margin-top: 10px;
+    width: 25%;
+    height: 30px;
+}
+.copy {
+    text-align: center;
+    clear: both;
+}
+
+.copy li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+
+
+
+
+
+
