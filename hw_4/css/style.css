@@ -10,8 +10,6 @@ h1 i{
     list-style: none;
     border: 1px solid #000;
     padding: 6px 0px 6px 4px;
-}
-.menu li{
     box-sizing: border-box;
 }
 .menu a{

@@ -1,47 +1,33 @@
 body{
-    background: url(../design/bg-big.png) no-repeat left top;
+    background: url(../design/bg-big.png) no-repeat center top;
     width: 100%;
-    min-height: 100%;
-    margin: auto 0;
+    margin: 0 auto;
+    min-width: 600px;
     font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1350px;
+}
+.wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
 }
 .logo-nav {
-    display: flex;
-    position: fixed;
+    width: 35%;
+    height: 70px;
     font-size: 40px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
+    padding-top: 20px;
 }
 .logo {
     width: 40px;
     height: 40px;
     background-color: #5094f2;
     border-radius: 50%;
-    margin: 25px 14px 25px 156px;
 }
 .logo p {
-    display: block;
-    position: relative;
-    padding-left: 10px;
     font-size: 45px;
     color: #fff;
     margin-top: 0;
     margin-bottom: 0;
-}
-.logo-nav span {
-    margin-top: 20px;
-}
-nav {
-    display: inline-block;
-    position: fixed;
-    float: right;
-    margin-left: calc(58% - 17px);
-}
-nav ul{
-    padding-left: 0;
-    margin: 25px;
 }
 nav li a{
     text-decoration: none;
@@ -62,21 +48,13 @@ li {
     list-style: none;
 }
 .text-block {
-    float: right;
-    width: calc(30% - 10px);
-    margin: 244px 254px 132px 106px;
-    color: #ffffff;
+    color: #fff;
 }
 .text-block h1{
-    font-size: 28px;
+    font-size: 42px;
 }
 .text-block h2{
-    font-size: 20px;
-}
-.img {
-    display: inline-block;
-    width: 374px;
-    margin: 138px 0 38px 198px;
+    font-size: 26px;
 }
 button {
     box-sizing: border-box;
@@ -87,6 +65,7 @@ button {
     height: 40px;
     font-size: 19px;
     border-color: #5094f2;
+    margin-left: 14px;
 }
 button img{
     vertical-align: bottom;
@@ -98,20 +77,17 @@ main {
     text-align: center;
     padding: 52px 134px 96px 140px;
 }
-
+.icons-block{
+   vertical-align: bottom;
+    margin-top: 10%;
+}
 .icons-block ul{
     padding-left: 0;
-    margin-bottom: 68px;
+    margin: 0 0 68px 0;
+
 }
 .icons-block li{
     text-align: center;
-    width: 246px;
-}
-.icons-block li:first-child{
-    padding-right: 138px;
-}
-.icons-block li:last-child{
-    padding-left: 98px;
 }
 .shape1, .shape2, .shape3 {
     display: -webkit-inline-box;
@@ -152,21 +128,11 @@ main {
 }
 .shopping-block {
     display: inline-block;
-    text-align: left;
-}
-.cart-block {
-    float: left;
-    display: inline-block;
 }
 .cart-block h1{
-    padding-left: 18px;
     font-size: 34px;
     margin-bottom: 38px;
     color: #6f7173;
-}
-.shopping-text {
-    margin-left: 448px;
-    margin-top: 86px;
 }
 .shopping-text h2{
     font-size: 22px;
@@ -179,6 +145,122 @@ main {
 }
 footer p {
     color: #909090;
-    margin: 0;
-    padding: 0 540px 44px 460px;
+    text-align: center;
+    padding-bottom: 48px;
 }
+/*Responsive*/
+
+@media (min-width: 960px){
+    .logo-nav {
+        float: left;
+    }
+    .logo {
+        float: left;
+        margin: 6px 14px 25px 156px;
+    }
+    .logo p {
+        display: block;
+        padding-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav {
+        float: right;
+    }
+    nav ul{
+        padding-left: 0;
+        margin: 25px 158px 25px 25px;
+    }
+    .text-block{
+        width: calc(30% - 10px);
+        margin-top: 120px;
+        margin-bottom: 132px;
+        margin-left: 55%;
+    }
+    .image {
+        float: left;
+        display: inline-block;
+        margin-left: calc(14% - 9px);
+        margin-top: 60px;
+    }
+    main {
+        display: inline-block;
+        text-align: center;
+        padding: 52px 134px 96px 140px;
+    }
+    .icons-block li{
+        margin: 0 4%;
+        width: 24%;
+    }
+    .cart-block {
+        float: left;
+        display: inline-block;
+    }
+    .cart-block h1{
+        padding-left: 18px;
+    }
+    .shopping-block{
+        text-align: left;
+    }
+
+    .shopping-text {
+        margin-left: 448px;
+        margin-top: 86px;
+    }
+}
+@media (max-width: 959px){
+       .logo{
+           float: left;
+           margin: 6px 14px 25px 30px;
+       }
+       .logo p {
+           display: block;
+           padding-left: 10px;
+       }
+       .logo-nav{
+           float: left;
+       }
+       nav{
+           float: right;
+       }
+       nav ul{
+           margin: 25px;
+       }
+       .image{
+           display: none;
+       }
+       main{
+           text-align: center;
+       }
+       .text-block{
+           text-align: center;
+           margin: 13% 17% 25% 15%;
+       }
+       .shopping-block{
+           text-align: center;
+       }
+}
+
+@media (max-width: 695px){
+        .wrapper{
+            height: 180px;
+        }
+        nav{
+            width: 100%;
+            text-align: center;
+        }
+        .logo-nav{
+            width: 37%;
+            padding-left: 35%;
+        }
+        .text-block{
+            margin: 13% 17% 25% 15%;
+        }
+        main{
+            padding-left: 34px;
+        }
+}
+
+
+
+
