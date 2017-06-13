@@ -75,7 +75,7 @@ button img{
 main {
     display: inline-block;
     text-align: center;
-    padding: 52px 134px 96px 140px;
+    padding: 52px 134px 68px 140px;
 }
 .icons-block{
    vertical-align: bottom;
@@ -146,8 +146,10 @@ main {
 footer p {
     color: #909090;
     text-align: center;
-    padding-bottom: 48px;
+    margin-top: 36px;
+    margin-bottom: 50px;
 }
+
 /*Responsive*/
 
 @media (min-width: 960px){
@@ -182,11 +184,6 @@ footer p {
         display: inline-block;
         margin-left: calc(14% - 9px);
         margin-top: 60px;
-    }
-    main {
-        display: inline-block;
-        text-align: center;
-        padding: 52px 134px 96px 140px;
     }
     .icons-block li{
         margin: 0 4%;
@@ -234,7 +231,7 @@ footer p {
        }
        .text-block{
            text-align: center;
-           margin: 13% 17% 25% 15%;
+           margin: 13% 15% 25% 15%;
        }
        .shopping-block{
            text-align: center;
@@ -245,19 +242,19 @@ footer p {
         .wrapper{
             height: 180px;
         }
+        main{
+            padding: 0 0 68px 0;
+        }
         nav{
             width: 100%;
             text-align: center;
         }
+        nav ul{
+            padding-left: 0;
+        }
         .logo-nav{
-            width: 37%;
-            padding-left: 35%;
-        }
-        .text-block{
-            margin: 13% 17% 25% 15%;
-        }
-        main{
-            padding-left: 34px;
+            width: 38%;
+            padding: 20px 31% 0 31%;
         }
 }
 
