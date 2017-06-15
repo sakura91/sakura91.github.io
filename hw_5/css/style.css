@@ -2,7 +2,7 @@ body{
     margin: 0 auto;
     min-width: 600px;
     font-family: 'Source Sans Pro', sans-serif;
-   /* max-width: 1350px;*/
+    max-width: 1350px;
 }
 .wrapper {
     background-color: #fff;
