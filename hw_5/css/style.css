@@ -1,10 +1,8 @@
 body{
-    background: url(../design/bg-big.png) no-repeat center top;
-    width: 100%;
     margin: 0 auto;
     min-width: 600px;
     font-family: 'Source Sans Pro', sans-serif;
-    max-width: 1350px;
+   /* max-width: 1350px;*/
 }
 .wrapper {
     background-color: #fff;
@@ -33,11 +31,20 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 }
+nav ul{
+    margin: 0;
+    padding-left: 0;
+}
 nav li a{
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    height: 62px;
     text-decoration: none;
     color: #000;
     font-size: 17px;
     line-height: 30px;
+    padding-top: 25%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -45,11 +52,16 @@ nav li a:hover {
     color: #d94748;
     cursor: pointer;
     border-bottom: 4px solid #70a5f4;
-    padding-bottom: 36px;
 }
 li {
     display: inline-block;
     list-style: none;
+}
+.background {
+    background: url(../design/bg-big.png) no-repeat top;
+    width: 100%;
+    height: calc(50% - 49px);
+    padding-top: 60px;
 }
 .text-block {
     color: #fff;
@@ -138,6 +150,10 @@ main {
     margin-bottom: 38px;
     color: #6f7173;
 }
+.shopping-block h1{
+    padding-left: 25px;
+    color: #6f7173;
+}
 .shopping-text h2{
     font-size: 22px;
     color: #6f7173;
@@ -146,6 +162,9 @@ main {
     font-size: 14px;
     line-height: 20px;
     color: #909090;
+}
+footer{
+    border-top: 1px solid #e5e5e5;
 }
 footer p {
     color: #909090;
@@ -172,10 +191,7 @@ footer p {
     }
     nav {
         float: right;
-    }
-    nav ul{
-        padding-left: 0;
-        margin: 25px 158px 25px 25px;
+        margin-right: calc(10% - 23px);
     }
     .text-block{
         width: calc(30% - 10px);
@@ -187,7 +203,6 @@ footer p {
         float: left;
         display: inline-block;
         margin-left: calc(14% - 9px);
-        margin-top: 60px;
     }
     .icons-block li{
         margin: 0 4%;
@@ -203,10 +218,8 @@ footer p {
     .shopping-block{
         text-align: left;
     }
-
     .shopping-text {
         margin-left: 448px;
-        margin-top: 86px;
     }
 }
 @media (max-width: 959px){
@@ -225,7 +238,7 @@ footer p {
            float: right;
        }
        nav ul{
-           margin: 25px;
+           margin-right: 25px;
        }
        .image{
            display: none;
