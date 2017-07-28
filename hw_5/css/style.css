@@ -193,7 +193,7 @@ footer p {
         margin-right: calc(10% - 23px);
     }
     .text-block{
-        /*width: calc(30% - 10px);*/
+        width: calc(30% - 10px);
         margin-top: 120px;
         margin-bottom: 132px;
         margin-left: 55%;

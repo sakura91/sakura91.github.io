@@ -125,4 +125,29 @@ number (12)//Even;
 number (7)//Odd;
 number (354)//Even;
 
-
+//Объекты (передвижение по оси координат)
+function createPlayer () {
+    return {
+        show: function () {
+            console.log(
+                this.positionX,
+                this.positionY
+            )
+        },
+        positionX: 0,
+        positionY: 0,
+        up: function (){
+            this.positionY++;
+        },
+        left: function (){
+            this.positionX--;
+        },
+        down: function (){
+            this.positionY--;
+        },
+        right: function () {
+            this.positionX++;
+        },
+    };
+}
+var player = createPlayer();
