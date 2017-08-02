@@ -4,8 +4,8 @@ body{
     max-width: 1600px;
     min-width: 840px;
 }
-.background-one-overplay {
-    background: url(../img/bg-1-overplay.png) no-repeat top;
+.background-header {
+    background: url(../img/bg-1.png) no-repeat top;
     width: 100%;
     height: 100%;
 }
@@ -20,6 +20,7 @@ nav {
     text-align: center;
     padding: 16px 0;
     font-weight: bold;
+    text-transform: uppercase;
 }
 nav ul {
     margin: 0;
@@ -51,6 +52,7 @@ nav li a:hover {
 }
 .section-header a h1{
     color: #ffffff;
+    text-transform: capitalize;
 }
 .section-header a,
 .section-header-expertise a,
@@ -92,6 +94,7 @@ nav li a:hover {
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     border: 1px solid #00e0d0;
     color: #00e0d0;
@@ -123,6 +126,7 @@ nav li a:hover {
 .logo-right h2 {
     color: #66636d;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 .logo-right p{
     color: #817f86;
@@ -130,16 +134,17 @@ nav li a:hover {
 .about-me .button{
     margin-top: 32px;
 }
-.background-two-overplay {
-    background: url(../img/bg-2-overplay.png) no-repeat top;
+.background-video {
+    background: url(../img/bg-2.png) no-repeat top;
     width: 100%;
     height: 100%;
 }
-.icon-play {
+.play-circle {
     display: inline-block;
     text-align: center;
+    text-transform: uppercase;
 }
-.icon-play a {
+.play-circle a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -154,6 +159,7 @@ nav li a:hover {
     font-weight: lighter;
     color: #413d4b;
     font-size: 22px;
+    text-transform: uppercase;
 }
 .section-header-expertise a p {
     font-size: 14px;
@@ -168,7 +174,7 @@ nav li a:hover {
     background-color: #9a9a9a;
 }
 .expertise ul,
-.background-three-overplay ul {
+.background-teams ul {
     padding-left: 0;
     margin-top: 30px;
     text-align: center;
@@ -202,13 +208,14 @@ nav li a:hover {
 .expertise h3{
     font-size: 10px;
     color: #413d4b;
+    text-transform: uppercase;
 }
 .expertise p {
     font-size: 14px;
 }
 /*TEAM*/
-.background-three-overplay {
-    background: url(../img/bg-3-overplay.png) no-repeat top;
+.background-teams {
+    background: url(../img/bg-3.png) no-repeat top;
     width: 100%;
     height: 100%;
 }
@@ -216,30 +223,35 @@ nav li a:hover {
     text-align: center;
     padding-top: 50px;
 }
-.section-header-team a h2,
+.section-header-team a h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+}
 .section-header-team a p {
     font-weight: lighter;
     color: white;
 }
-.background-three-overplay ul {
+.background-teams ul {
     margin-bottom: 30px;
 }
-.background-three-overplay li {
+.background-teams li {
     color: #ffffff;
     width: 20%;
     box-sizing: border-box;
     border: 1px solid #fff;
     margin: 0 8px;
 }
-.background-three-overplay img {
+.background-teams img {
     display: inline-block;
     width: 100%;
 }
-.background-three-overplay li h4 {
+.background-teams li h4 {
     font-weight: lighter;
 }
-.background-three-overplay li div {
+.background-teams li div {
     font-size: 12px;
+    text-transform: uppercase;
 }
 .bottom-team {
     margin: 0 auto;
@@ -260,15 +272,18 @@ nav li a:hover {
 .title-works h3 {
     display: inline-block;
     margin: 66px 0;
+    text-transform: uppercase;
 }
 .title-work-right {
     display: inline-block;
     float: right;
 }
-.title-work-right h3 {
+.title-work-right h4 {
     display: inline-block;
     width: 176px;
     font-size: 14px;
+    margin: 66px 0;
+    text-transform: capitalize;
 }
 .gallery a {
     display: inline-block;
@@ -280,7 +295,7 @@ nav li a:hover {
 }
 .gallery div {
     display: inline-block;
-    width: calc(17% - 7px);
+    width: 16.666%;
     box-shadow: inset 1px 2px 6px  rgba(0, 0, 0, 0.3);
 }
 .gallery img{
@@ -293,8 +308,8 @@ nav li a:hover {
     width: 110px;
 }
 /*TESTIMONIALS*/
-.background-four-overplay {
-    background: url(../img/bg-4-overplay.png) no-repeat top;
+.background-people-say {
+    background: url(../img/bg-4.png) no-repeat top;
     width: 100%;
     height: 100%;
 }
@@ -323,28 +338,61 @@ nav li a:hover {
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 50px;
+    text-transform: uppercase;
 }
 .test-text h4 {
     font-size: 13px;
     line-height: 22px;
     font-weight: lighter;
     margin-top: 6px;
+    text-transform: uppercase;
 }
 .slider {
-    padding-bottom: 62px;
+    padding-bottom: 50px;
     margin: 0 auto;
     text-align: center;
+    width: 400px;
+}
+.image {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+}
+.image-active {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.image-active img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.image-active img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.chevron {
+    display: inline-block;
+    width: 20px;
+    padding: 6px;
+    position: relative;
+    bottom: 25px;
+}
+.chevron a i:hover{
+    color: #00e0d0;
 }
 .slider img {
     padding: 5px;
     display: inline-block;
-    margin-bottom: -16px;
+    margin-bottom: 10px;
 }
 .slider i {
-    color: #cfced4;
+    color: #9f9f9f;
     font-size: 34px;
     font-weight: lighter;
-    margin: 12px;
 }
 /*CONTACT*/
 .form {
@@ -358,6 +406,7 @@ nav li a:hover {
     line-height: 50px;
     font-weight: lighter;
     color: #413d4b;
+    text-transform: uppercase;
 }
 .client h2 { margin-left: 15px; }
 
@@ -407,8 +456,8 @@ textarea {
     width: 96%;
 }
 /*FOOTER*/
-.background-five-overplay {
-    background: url(../img/bg-5-overplay.png) no-repeat top;
+.background-footer {
+    background: url(../img/bg-5.png) no-repeat top;
     width: 100%;
     height: 400px;
 }
@@ -420,13 +469,16 @@ textarea {
     line-height: 26px;
     font-weight: lighter;
 }
-.left-column {
+.items h3 {
+    text-transform: uppercase;
+}
+.description {
     display: inline-block;
     width: 30%;
     float: left;
     vertical-align: top;
 }
-.center-column {
+.contacts {
     display: inline-block;
     width: 29%;
     margin-left: 26px;
@@ -443,13 +495,13 @@ textarea {
     float: right;
     margin: 0 0 0 15px;
 }
-.right-column {
+.social {
     display: inline-block;
     width: 31%;
     margin-left: 56px;
     vertical-align: top;
 }
-.right-column input {
+.social input {
     background: transparent;
     width: 210px;
     height: 44px;
@@ -458,23 +510,23 @@ textarea {
     vertical-align: top;
     box-sizing: border-box;
 }
-.footer-button a,
+.submit-button a,
 .social-media a {
     display: block;
     width: 100%;
     height: 100%;
 }
-.footer-button img {
+.submit-button img {
     padding: 10px 20px;
 }
-.footer-button {
+.submit-button {
     display: inline-block;
     width: 66px;
     height: 45px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 6px;
 }
-.footer-button a:hover{
+.submit-button a:hover{
     background-color: rgba(255, 255, 255, 0.8);
     -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
@@ -485,7 +537,7 @@ textarea {
     background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
-.footer-button a:active {
+.submit-button a:active {
     background-position: center;
 }
 .social-media ul {
@@ -497,6 +549,7 @@ textarea {
 .footer-nav {
     display: inline-block;
     margin-bottom: 4%;
+    text-transform: uppercase;
 }
 .footer-nav ul {
     padding-left: 0;
@@ -511,7 +564,7 @@ textarea {
     text-decoration: none;
     color: #ffffff;
 }
-.footer-nav a:hover{
+.footer-nav a:hover {
     color: #00e0d0;
 }
 .copy {
@@ -535,7 +588,7 @@ textarea {
     .title-text {
         margin: 10% 0 21%;
     }
-    .icon-play {
+    .play-circle {
         margin: 22% 42%;
     }
     .bottom-team {
@@ -553,7 +606,7 @@ textarea {
     .title-text {
         margin: 10% 0 14%;
     }
-    .icon-play {
+    .play-circle {
         margin: 16% 41%;
     }
     .bottom-team {
@@ -571,24 +624,21 @@ textarea {
     .logo-right {
         padding-left: 2%;
     }
-    .gallery div{
-        width: calc(17% - 4px);
-    }
     .slider {
         padding-bottom: 44px;
     }
-    .right-column {
+    .social {
         margin-left: 8px;
         width: 36%;
     }
     .items {
         margin: 62px 0;
     }
-    .center-column {
+    .contacts {
         margin-left: 26px;
         width: 29%;
     }
-    .footer-button {
+    .submit-button {
         margin-left: 0;
     }
     .address p, .phone p {
