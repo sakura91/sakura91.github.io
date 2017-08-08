@@ -90,18 +90,20 @@ nav li a:hover {
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.button {
+.btn {
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
     text-align: center;
+    background: transparent;
     border: 1px solid #00e0d0;
     color: #00e0d0;
     padding: 10px;
     font-weight: lighter;
 }
-.button:hover{
+button:hover{
     color: white;
     background-color: #00e0d0;
 }
@@ -259,6 +261,9 @@ nav li a:hover {
     text-align: center;
     color: #ffffff;
     font-weight: lighter;
+}
+.bottom-team p {
+    margin-bottom: 26px;
 }
 /*WORKS*/
 .content-work {
@@ -436,6 +441,16 @@ textarea {
     width: 120px;
     margin-top: 10px;
     margin-bottom: 70px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    padding: 10px;
+    font-weight: lighter;
 }
 .client {
     display: inline-block;
@@ -510,23 +525,17 @@ textarea {
     vertical-align: top;
     box-sizing: border-box;
 }
-.submit-button a,
-.social-media a {
-    display: block;
-    width: 100%;
-    height: 100%;
+.submit-btn img {
+    padding-top: 8px;
 }
-.submit-button img {
-    padding: 10px 20px;
-}
-.submit-button {
+.submit-btn {
     display: inline-block;
     width: 66px;
     height: 45px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 6px;
 }
-.submit-button a:hover{
+.submit-btn:hover{
     background-color: rgba(255, 255, 255, 0.8);
     -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
@@ -537,7 +546,7 @@ textarea {
     background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
-.submit-button a:active {
+.submit-btn:active {
     background-position: center;
 }
 .social-media ul {
@@ -592,7 +601,7 @@ textarea {
         margin: 22% 42%;
     }
     .bottom-team {
-        padding: 34px 0 98px;
+        padding: 24px 0 98px;
     }
     .client-image li{
         width: 38%;
