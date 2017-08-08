@@ -449,6 +449,7 @@ textarea {
     background-color: #ffffff;
     border: 1px solid #00e0d0;
     color: #00e0d0;
+    cursor: pointer;
     padding: 10px;
     font-weight: lighter;
 }
@@ -534,6 +535,7 @@ textarea {
     height: 45px;
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: 6px;
+    cursor: pointer;
 }
 .submit-btn:hover{
     background-color: rgba(255, 255, 255, 0.8);
